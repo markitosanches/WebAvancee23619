@@ -16,6 +16,10 @@ $stmt->execute(array($id));
 
 $client = $stmt->fetch();
 
+//fettchAll() table[lig][col] array([0]=>array())
+
+//fetch() table[col] array()
+
 //print_r($client);
 
 // var_dump($client);
